@@ -4,28 +4,96 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nixie+One&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
-    <div class="line">
-       <div>main</div>
-       <div>blog</div>
-       <div>challange</div>
-       <div>"deffenders of the world"</div>
-       <div>petition to protect nature</div>
-       <div>about us</div>
+  <div class="menu">
+    <div class="navigation">
+        <input type="checkbox" class="navigation__checkbox" id="nav-toggle" width="50px">
+        <label for="nav-toggle"  class="navigation__button">
+          <span class="navigation__icon"  aria-label="toggle navigation menu"> </span><div class="di"><p>Menu</p>
+              
+          </div>
+        </label>
+        <div class="navigation__background"></div>
+  
+        <nav class="navigation__nav" role="navigation">
+          <ul class="navigation__list">
+            <li class="navigation__item">
+              <a href="#" class="navigation__link">About</a>
+            </li>
+            <li class="navigation__item">
+              <a href="#" class="navigation__link">Location</a>
+            </li>
+            <li class="navigation__item">
+              <a href="#" class="navigation__link">Infrastructure</a>
+            </li>
+            <li class="navigation__item">
+              <a href="#" class="navigation__link">Gallery</a>
+            </li>
+            <li class="navigation__item">
+              <a href="#" class="navigation__link">How to buy</a>
+            </li>
+      </ul>
+    </nav>
+  </div>
+  <div class="logo">Meridian</div>
+
+<div class="phone">+7 (495) 023-27-32</div>
+ <div class="phIcon">
+   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+  <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+</svg></div>
+</div>
+   <div class="content">
+    <div class="ob">
+        <div class="square">
+          <div id="text">VIEW OF THE CITY</div>
+          <div id="text2">ENJOY THE SUNRISE, LOOK FOR MOSCOW-CITY ON THE HORIZON, AND FALL IN LOVE WITH MOSCOW’S QUIET COURTYARDS IN THE SPRING</div>
+          <div class="bb">
+            <div class="btn" onclick="prev()"><svg id="right" xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-arrow-left-circle" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"/>
+              </svg></div>
+            <div class="btn" onclick="next()"><svg id="right" xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+              </svg></div>
+          </div>
+        
+      </div>
+        <div class="slider">
+                <img class="slider-img" src="1.jpeg" alt="">
+        </div>
+        
+      </div>
     </div>
-    <div class="main">
-       <div class="bigs">Protect our land576345077</div>
-       <div class="rect">
-       <div id="we"><i>"Environment is no one's property to destroy;</i></div>
-       <div id="wq"><i>it's everyone's responsibility to protect"</i></div>
-       </div>
-       <div id="join">JOIN</div>
+  <div class="opinion">
+    <div class="arch"> <p id="nameArch">IVAN GREKOV</p>
+    <p id="job">ARCHITECT, PARTNER AT KAMEN ARCHITECTS</p></div>
+    <img src="main2.jpg" alt="">
+    <div class="kamen"><p>Kamen</p></div>
+    <div class="opinionText">
+      <p>“ The proportions and rhythm of <br> the façades are present here not only in space, but also in time. The interaction <br> with the complex takes place <br> in movement.”</p>
+    <img  id="ivan" src="ivan.jpg" alt="">
     </div>
+   
+  </div>
+
+  <div class="teraces">
+    <div>
+      <img id="ter1" src="teraces1.jpg" alt="">
+      <img id="ter2" src="teraces2.jpg" alt="">
+      <div class="ter"><p>Ter- <br> aces</p></div>
+    </div>
+    
+  </div>
+</div>
+
+       <script src="script.js"></script>
 </body>
 </html>
