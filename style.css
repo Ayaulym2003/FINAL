@@ -322,12 +322,12 @@
   }
   .kamen{
     width: 100vw;
-    font-size: 400px;
+    font-size: 30vw;
     margin-top: -620px;
     
   }
   .kamen p{
-      width: 100vw;
+   width: 100vw;
   color: transparent;
   text-transform: uppercase;
   -webkit-text-stroke-width: 1px;
