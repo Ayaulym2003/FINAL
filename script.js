@@ -30,7 +30,7 @@ $(document).ready(function(){
   var slider_img = document.querySelector('.slider-img');
 var text = document.querySelector('.text');
 var images = ['1.jpeg', '5.jpeg', '6.jpeg', '7.jpeg'];
-var texts = ["VIEW OF THE CITY", "page2", "page3"];
+var texts = ["page1", "page2", "page3"];
 var texts2 = ["AYAU", "loremckjhvlh", "zvkzgvkjgvj"];
 var i = 0;
 
