@@ -327,6 +327,7 @@
     
   }
   .kamen p{
+      width: 100vw;
   color: transparent;
   text-transform: uppercase;
   -webkit-text-stroke-width: 1px;
