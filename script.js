@@ -54,3 +54,17 @@ function setImg(){
     return slider_img.setAttribute('src', images[i]);
 }
 
+let sq = document.getElementById('ee');
+let ivan = document.getElementById('ivan');
+window.addEventListener('scroll', function(){
+let value = window.scrollY;
+ivan.style.marginTop = value * 0.05 + 'px';
+
+})
+
+
+let tee = document.getElementById('tt');
+ window.addEventListener('scroll', function(){
+    let value = window.scrollY;
+    tee.style.marginTop = value * 0.05 + 'px';
+    })
