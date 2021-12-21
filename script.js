@@ -30,8 +30,9 @@ $(document).ready(function(){
   var slider_img = document.querySelector('.slider-img');
 var text = document.querySelector('.text');
 var images = ['1.jpeg', '5.jpeg', '6.jpeg', '7.jpeg'];
-var texts = ["page1", "page2", "page3"];
-var texts2 = ["AYAU", "loremckjhvlh", "zvkzgvkjgvj"];
+var texts = ["Meridian Apartments", "Accessibility", "Safety", "Aesthetics"];
+var texts2 = ["Is a place where you can live without any need.THE POSSIBILITY OF SPENDING TIME TOGETHER WHILE RESPECTING EVERYONE'S PERSONAL SPACE IS THE GUIDING PRINCIPLE BEHIND ENITEO'S APARTMENT DESIGNS, WHICH START WITH TWO-BEDROOM EUROPEAN-STYLE APARTMENTS AND END WITH SEVEN-BEDROOM PENTHOUSES AND TWO-STOREY TERRACED APARTMENTS.", "Is a place where you can find anything. Groceries, Markets, Shops, Worldwide Brands, Restaurants, Coffee and all other need are located in Meridian itself.", "Meridian is built in a safe and beautiful place. MEridian FEATURES A CLOSED COURTYARD WITHOUT CARS; A VIDEO SURVEILLANCE SYSTEM WITH THE ABILITY TO CONNECT RESIDENTS AND PROVIDE ARCHIVE RECORDINGS; AND ACCESS CONTROL WITH A BIOMETRIC READER, CARDS, KEY FOBS AND A MOBILE PHONE APP.", "An awesome view will be with you everyday. RISING ABOVE THE URBAN LANDSCAPE, MEridian IS BECOMING A VISIBLE METAPHOR FOR THE CAREER RISE AND DIZZYING SUCCESS OF ITS RESIDENTS."];
+
 var i = 0;
 
 function prev(){

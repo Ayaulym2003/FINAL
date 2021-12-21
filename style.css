@@ -285,6 +285,7 @@
       width: 100%;
       
   }
+ 
   .opinion{
       padding-top: 120px;
       width: 100%;
@@ -342,7 +343,7 @@
     padding-top: 150px;
     background-color: #746a57;
     width: 100%;
-    padding-bottom: 120px;
+    padding-bottom: 8px;
     display: flex;
     
 }
@@ -420,16 +421,18 @@
 .ob{
     height: 100vh;
     background-color: rgb(116, 106, 87, 0.9);
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
   .square{
-    width: 35vw;
-    height: 50vh;
+    width: 32vw;
+    height: 66.5vh;
     background-color: rgba(196,159,138,255);
-    height: 500px;
     position: absolute;
-    left: 65vw;
+    left: 68vw;
     z-index: 1;
     top: 33.5vh;
+    
 }
 .slider{
     width: 70vw;
@@ -466,8 +469,54 @@
     top: 180px;
     left: 50px;
 }
-#text{
-    margin-top: 100px;
+ #text{
+     color: white;
+     margin-top: 9vh;
+      margin-left: 3vw;
+      margin-bottom: 20px;
+      font-size: 2vw;
+      text-transform: uppercase;
+  }
+  #text2{
+      color: black;
+    margin-left: 3vw;
+    font-size: 1vw;
+    text-transform: uppercase;
+    text-align: left;
 }
+.footer{
+    width:100%;
+    height: 550px;
+    background-color:rgb(39, 34, 33);
+   display: flex;
+}
+.footer >div{
+    padding-top: 70px;
+    padding-left: 75px;
 
+   width: 700px;
+}
+.footer h2{
+color: rgb(224, 224, 224);
+font-size: 14px;
+padding-bottom: 20px;
 
+}
+.footer h4{
+    color: rgb(235, 235, 235);
+    font-size: 14px;
+ }
+.footer h3{
+    color: rgb(116, 106, 87);
+    font-size: 14px;    
+    padding-bottom: 10px;
+    padding-top: 50px;
+}
+.footer h1{
+    color:rgb(221, 180, 180);
+    font-size: 14px;
+}
+.footer div{
+    color:rgb(116, 106, 87);
+    font-size: 10px;
+}
