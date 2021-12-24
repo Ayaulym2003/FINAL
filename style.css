@@ -357,12 +357,12 @@
    
 }
 .ter2{
-    width: 500px;
+    width: 39vw;
      right: 0;
 }
 
 .ter2 img{
-    width: 500px;
+    width: 39vw;
     
 }
 .ter3{
@@ -618,7 +618,7 @@ padding-bottom: 20px;
   
   .bb{
       position: relative;
-      top: 10vh;
+      top: 5vh;
       left: 5vw;
   }
   #right{
@@ -633,7 +633,7 @@ padding-bottom: 20px;
     }
     #text2{
         font-size: 2.3vw;
-        height: 15vw;
+        height: 20vw;
     }
 
   .opinion{
@@ -686,12 +686,8 @@ line-height: 100px;
   padding-top: 60px;
  
 }
-.ter2{
-  width: 100%;
-}
-
 .ter2 img{
-  width: 100%;
+  width: 40vw;
   
 }
 .ter3{
