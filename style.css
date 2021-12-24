@@ -627,21 +627,21 @@ padding-bottom: 20px;
    #text{
        
     margin-top: 6vh;
-    font-size: 2.5vw;
+    font-size: 3vw;
 
     }
     #text2{
-        font-size: 1.4vw;
-
+        font-size: 2vw;
+        height: 10vw;
     }
 
   .opinion{
-    height: 800px;
+    height: 130%;
 }
 
 .opinionText{
-    position: relative;
-    top: -70vh;
+    position: absolute;
+    top: 120vh;
     margin-left: 15%;
     font-size: 4vw;
   }
@@ -663,7 +663,7 @@ padding-bottom: 20px;
 }
 
 #ivan{
-  width: 35%;
+  width: 15vh;
   margin-left: 10%;
   padding-top: 0px;
 }
