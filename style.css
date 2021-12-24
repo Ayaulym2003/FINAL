@@ -574,7 +574,7 @@ padding-bottom: 20px;
       background-color:  white ;
       border-radius: 50%;
       text-align: center;
-      margin-bottom: 1vh;
+      margin-bottom: 2vw;
       margin-top: 1vw;
       transition: all 400ms cubic-bezier(0.86, 0, 0.07, 1);
       cursor: pointer;
@@ -850,6 +850,10 @@ right: 12vw;
     color:rgb(233, 191, 174);
 }
  @media (max-width:700px)  {
+     .phIcon1{
+        margin-top: 10px;
+        margin-left: -2vw;
+     }
      .sub{
          margin-top: 2vw;
          margin-right:0vw ;
@@ -866,7 +870,7 @@ right: 12vw;
        font-size:4vw;
    }
     .phone123{
-        left:85vw;
+    left:85vw;
      top:16px;
 
     }
