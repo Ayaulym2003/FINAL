@@ -622,9 +622,9 @@ padding-bottom: 20px;
 }
 
 .opinionText{
-    top: -70vh;
+    top: -60%;
     margin-left: 15%;
-    font-size: 5vw;
+    font-size: 3vh;
   }
 .arch{
     margin-left: 15%;
@@ -673,7 +673,7 @@ line-height: 100px;
 }
 .ter3{
   left: 18vw;
-  top: -45vh;
+  top: -75%;
 }
 .ter3 img{
   width: 35vw;
