@@ -268,7 +268,7 @@
       margin: 30px;
       font-size: 35px;
       text-transform: uppercase;
-      top: -900px;
+      top: -850px;
       text-align: left;
       margin-left: 27%;  
     }
@@ -357,12 +357,12 @@
    
 }
 .ter2{
-    width: 33vw;
+    width: 33%;
      right: 0;
 }
 
 .ter2 img{
-    width: 33vw;
+    width: 100%;
     
 }
 .ter3{
