@@ -27,7 +27,7 @@
       height: 57px;
       width: 140px;
       border-radius: 25px;
-      background: #ebe9e5;
+      background: #ffffff;
       text-align: center;
       
       z-index: 300;
@@ -82,19 +82,20 @@
       display: inline-block;
       padding: 1rem 2rem;
       text-transform: uppercase;
-      color: rgb(235, 191, 191);
+      color: rgb(236, 205, 205);
       font-size: 35px;
       font-weight: 350;
       text-decoration: none;
       transition: all .2s;
   }
-   
-  
+
   .navigation__link:hover {
       color: #fff;
       transform: scale(1.1);
   }
-  
+  #re{
+      color: white;
+  }
   .navigation__checkbox:checked~.navigation__background {
       transform: scale(80);
       background-color: rgb(116, 106, 87, 0.9);
@@ -224,7 +225,7 @@
       color:  white;
       font-size: 30px;
       text-transform: uppercase;
-      padding-top: 25px;
+      padding-top: 10px;
   }
   .menu .phone{
       color: white ;
@@ -428,12 +429,12 @@
 
 
 .bb{
-    width: 100px;
+    width: 10vw;
     display: flex;
     justify-content: space-between;
     z-index: 1;
     position: absolute;
-    top: 380px;
+    top: 55vh;
     left: 60px;
 }
  #text{
@@ -469,7 +470,11 @@
 .byCar img{
     width: 250px;
     margin-left: 30%;
-    margin-top: -80px;
+
+}
+#po{
+    position: relative;
+    top: 40vh;
 }
 .byCar #byCar{
     font-size: 15vmin;
@@ -511,8 +516,9 @@
 }
 
 .footer{
+    position: relative;
     width:100%;
-    height: 550px;
+    height: 500px;
     background-color:rgb(39, 34, 33);
    display: flex;
 }
@@ -520,7 +526,7 @@
     padding-top: 70px;
     padding-left: 75px;
 
-   width: 550px;
+   width: 700px;
 }
 .footer h2{
 color: rgb(224, 224, 224);
@@ -546,6 +552,7 @@ padding-bottom: 20px;
     color:rgb(116, 106, 87);
     font-size: 10px;
 }
+
 
 @media(max-width: 700px){
     .di{
@@ -609,8 +616,9 @@ padding-bottom: 20px;
   }
   
   .bb{
-      top: 70%;
-      left: 50px;
+      position: relative;
+      top: 10vh;
+      left: 5vw;
   }
   #right{
       width: 8vw;
@@ -619,25 +627,27 @@ padding-bottom: 20px;
    #text{
        
     margin-top: 6vh;
-    font-size: 2.5vh;
+    font-size: 2.5vw;
 
     }
     #text2{
-        font-size: 1.4vh;
+        font-size: 1.4vw;
 
     }
 
   .opinion{
-    height: 900px;
+    height: 800px;
 }
 
 .opinionText{
-    top: -60%;
+    position: relative;
+    top: -70vh;
     margin-left: 15%;
     font-size: 4vw;
   }
 .arch{
     margin-left: 15%;
+    font-size: 2vw;
 }
 #job{
     font-size: 3vw;
@@ -693,7 +703,7 @@ line-height: 100px;
 }
   
 .byCar #col1{
-    padding-left: 5%;
+    padding-left: 5vw;
 }
 
 .byCar img{
@@ -702,10 +712,13 @@ line-height: 100px;
 .byCar #col2 p span{
     font-size: 2vmin;
     text-transform: uppercase;
-    padding-left: 0%;
+    padding-left: 0vw;
     
 }
-
+#po{
+    position: relative;
+    top: 30vh;
+}
 .words{
     font-size: 6vw;
 }
@@ -717,19 +730,28 @@ line-height: 100px;
 #yn, #yn1{
     left: 100%;
 }
-
-    
-    
-    
-    
-    .footer{
-        height: 70vh;
+.footer{
+        height: 50vh;
+       
+    }
+    .footer h1{
+        font-size: 2vw;
+    }
+    .footer h3{
+        font-size: 2vw;
+    }
+    .footer h2{
+        font-size: 2vw;
+    }
+    .footer h4{
+        font-size: 2vw;
     }
     .footer >div{
         padding-left: 20px;
-        font-size: 3vw;
+        
     }
     #rp{
+         font-size: 1.7vw;
         padding-right: 20px;
     }
     }
