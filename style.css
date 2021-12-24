@@ -199,7 +199,8 @@
       right: 0;
       text-align: right;
       
-  }.navigation__button{
+  }
+  .navigation__button{
       display: flex;
       font-size: 20px;
   }
@@ -581,9 +582,6 @@ padding-bottom: 20px;
              left: 0px;
             
     }
-    .logo{
-        padding-left: 90px;
-    }
     .phone{
         display: none;
     }   
@@ -594,7 +592,10 @@ padding-bottom: 20px;
         width: 100vw;
     }
     .menu .logo{
-        font-size: 6vw;
+        margin-left: 7vw;
+    }
+    #re{
+         font-size: 7vw;
     }
   .content{
       height: 84vh;
@@ -626,13 +627,13 @@ padding-bottom: 20px;
   }
    #text{
        
-    margin-top: 6vh;
-    font-size: 3vw;
+    margin-top: 3vh;
+    font-size: 4vw;
 
     }
     #text2{
-        font-size: 2vw;
-        height: 10vw;
+        font-size: 2.3vw;
+        height: 15vw;
     }
 
   .opinion{
@@ -663,7 +664,7 @@ padding-bottom: 20px;
 }
 
 #ivan{
-  width: 15vh;
+  width: 25vw;
   margin-left: 10%;
   padding-top: 0px;
 }
