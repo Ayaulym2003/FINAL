@@ -216,7 +216,7 @@
       background-color: transparent;
       height: 100px;
       top: 0;
-      width: 100vw;
+      width: 100%;
       transition: all 300ms ease;
   z-index: 10;
   }
@@ -332,8 +332,8 @@
     content: "";
     position: absolute;
     z-index: -1;
-    width: 400px;
-    height: 400px;
+    width: 20%;
+    height: 20%;
     left: 100%;
     top:-10%;
 }
@@ -583,25 +583,30 @@ padding-bottom: 20px;
     .navigation__list{
         padding-left: 0;
     }
-    
+    .menu{
+        width: 100vw;
+    }
+    .menu .logo{
+        font-size: 6vw;
+    }
   .content{
       height: 84.1%;
   }
     .square{
       width: 72%;
-      height: 43.5vh;
+      height: 43.5%;
       left: 28%;
-      top: 40.5vh;
+      top: 40.5%;
       
   }
   
   .slider-img{
       width: 100vw;
-      height: 50vh;
+      height: 50%;
   }
   
   .bb{
-      top: 30vh;
+      top: 65%;
       left: 50px;
   }
   #right{
@@ -624,12 +629,14 @@ padding-bottom: 20px;
 .opinionText{
     top: -60%;
     margin-left: 15%;
-    font-size: 3vh;
+    font-size: 4vw;
   }
 .arch{
     margin-left: 15%;
 }
-
+#job{
+    font-size: 3vw;
+}
 .opinion img{
     width: 45%;
     margin-top: 200px;
@@ -677,7 +684,7 @@ line-height: 100px;
 }
 .ter3 img{
   width: 35vw;
-  height: 30vh;
+  height: 60%;
 }
   
 .byCar #col1{
@@ -711,10 +718,11 @@ line-height: 100px;
     
     
     .footer{
-        height: 450px;
+        height: 70vh;
     }
     .footer >div{
         padding-left: 20px;
+        font-size: 3vw;
     }
     #rp{
         padding-right: 20px;
