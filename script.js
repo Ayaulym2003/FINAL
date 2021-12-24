@@ -69,3 +69,47 @@ let tee = document.getElementById('tt');
     let value = window.scrollY;
     tee.style.marginTop = value * 0.05 + 'px';
     })
+
+    let ev = document.getElementById('ev');
+
+    window.addEventListener('scroll', function(){
+    let value = window.scrollY;
+    ev.style.marginLeft = value * 0.17 + 'px';
+    
+    })
+    let ev1 = document.getElementById('ev1');
+
+    window.addEventListener('scroll', function(){
+    let value = window.scrollY;
+    ev1.style.marginLeft = value * 0.17 + 'px';
+    
+    })
+    let ev2 = document.getElementById('ev2');
+
+    window.addEventListener('scroll', function(){
+    let value = window.scrollY;
+    ev2.style.marginLeft = value * 0.17 + 'px';
+    
+    })
+      
+    let yn = document.getElementById('yn');
+  
+    window.addEventListener('scroll', function(){
+    let value = window.scrollY;
+    yn.style.marginLeft = value * -0.16 + 'px';
+    
+    })
+    let yn1 = document.getElementById('yn1');
+  
+    window.addEventListener('scroll', function(){
+    let value = window.scrollY;
+    yn1.style.marginLeft = value * -0.16 + 'px';
+    
+    })
+    let we = document.getElementById('we');
+  
+    window.addEventListener('scroll', function(){
+    let value = window.scrollY;
+    we.style.marginTop = value * -0.16 + 'px';
+    
+    })    
