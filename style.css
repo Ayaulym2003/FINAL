@@ -240,7 +240,7 @@
     margin-top: 30px;
     margin-left: 0;
     padding-top: 8px;
-    margin-right: 45px;
+    margin-right: 25px;
   }
   .menu .phIcon svg {
       color: rgb(116, 106, 87);
@@ -263,10 +263,10 @@
       position: relative;
       width: 60%;
       color: rgb(235, 191, 191);
-      margin: 30px auto;
+      margin: 30px;
       font-size: 35px;
       text-transform: uppercase;
-      margin-top: -900px;
+      top: -900px;
       text-align: left;
       margin-left: 27%;  
     }
@@ -431,12 +431,10 @@
     width: 100px;
     display: flex;
     justify-content: space-between;
-    margin-top: 200px;
-    margin-left: 50px;
     z-index: 1;
     position: absolute;
-    top: 180px;
-    left: 50px;
+    top: 380px;
+    left: 60px;
 }
  #text{
      color: white;
@@ -458,6 +456,8 @@
 .square svg{
     color:#494235 ;
 }
+
+
 .byCar{
     padding-top: 130px;
     background-color: #e9ebeb;
@@ -554,10 +554,10 @@ padding-bottom: 20px;
     .navigation__button{
         width: 57px;
         border-radius: 50%;
-        left: 20px;
+        left: 25px;
     } 
     .navigation__background{
-        left: 23px;
+        left: 28px;
     }
     .navigation__icon,
       .navigation__icon::before,
@@ -584,4 +584,132 @@ padding-bottom: 20px;
         padding-left: 0;
     }
     
+  .ob{
+      height: 100vh;
+  }
+    .square{
+      width: 72%;
+      height: 46.5vh;
+      left: 28%;
+      top: 53.5vh;
+      
+  }
+  
+  .slider-img{
+      width: 100vw;
+      height: 70vh;
+  }
+  
+  .bb{
+      top: 260px;
+      left: 50px;
+  }
+   #text{
+       margin-top: 6vh;
+        font-size: 3vw;
+    }
+
+
+  .opinion{
+    height: 1000px;
+}
+
+.opinionText{
+    top: -70vh;
+    margin-left: 15%;
+    font-size: 25px;
+  }
+.arch{
+    margin-left: 15%;
+}
+
+.opinion img{
+    width: 45%;
+    margin-top: 200px;
+    margin-left: 27%;
+}
+.kamen{
+    display: none;
+  
+}
+
+#ivan{
+  width: 35%;
+  margin-left: 10%;
+  padding-top: 0px;
+}
+
+
+.teraces{
+  padding-top: 100px;
+  height: 550px;
+}
+
+.ter{
+  padding-left: 2%;
+  font-size: 13vw;
+}
+.ter p{    
+line-height: 100px;
+}
+.ter1{
+  padding-top: 60px;
+ 
+}
+.ter2{
+  width: 100%;
+}
+
+.ter2 img{
+  width: 100%;
+  
+}
+.ter3{
+  left: 18vw;
+  top: -50vw;
+}
+.ter3 img{
+  width: 35vw;
+  height: 30vh;
+}
+  
+.byCar #col1{
+    padding-left: 5%;
+}
+
+.byCar img{
+    width: 25vw;
+}
+.byCar #col2 p span{
+    font-size: 2vmin;
+    text-transform: uppercase;
+    padding-left: 0%;
+    
+}
+
+.words{
+    font-size: 6vw;
+}
+
+#ev, #ev1, #ev2{
+    width: 1000px;
+    left: -30%;
+}
+#yn, #yn1{
+    left: 90%;
+}
+
+    
+    
+    
+    
+    .footer{
+        height: 450px;
+    }
+    .footer >div{
+        padding-left: 20px;
+    }
+    #rp{
+        padding-right: 20px;
+    }
     }
