@@ -590,7 +590,10 @@ padding-bottom: 20px;
         font-size: 6vw;
     }
   .content{
-      height: 84.1%;
+      height: 84%;
+  }
+  .ob{
+      height: 105%;
   }
     .square{
       width: 72%;
@@ -614,12 +617,14 @@ padding-bottom: 20px;
       height: 7vh;
   }
    #text{
+       
        margin-top: 6vh;
     font-size: 2.5vh;
 
     }
     #text2{
         font-size: 1.4vh;
+        height: 20vh;
     }
 
   .opinion{
