@@ -249,7 +249,7 @@
 
   .content{
       width: 100%;
-      
+      overflow: hidden;
   }
  
   .opinion{
@@ -584,31 +584,38 @@ padding-bottom: 20px;
         padding-left: 0;
     }
     
-  .ob{
-      height: 100vh;
+  .content{
+      height: 84.1%;
   }
     .square{
       width: 72%;
-      height: 46.5vh;
+      height: 43.5vh;
       left: 28%;
-      top: 53.5vh;
+      top: 40.5vh;
       
   }
   
   .slider-img{
       width: 100vw;
-      height: 70vh;
+      height: 50vh;
   }
   
   .bb{
-      top: 260px;
+      top: 30vh;
       left: 50px;
+  }
+  #right{
+      width: 7vw;
+      height: 7vh;
   }
    #text{
        margin-top: 6vh;
-        font-size: 3vw;
-    }
+    font-size: 2.5vh;
 
+    }
+    #text2{
+        font-size: 1.4vh;
+    }
 
   .opinion{
     height: 1000px;
@@ -693,10 +700,10 @@ line-height: 100px;
 
 #ev, #ev1, #ev2{
     width: 1000px;
-    left: -30%;
+    left: -5%;
 }
 #yn, #yn1{
-    left: 90%;
+    left: 60%;
 }
 
     
