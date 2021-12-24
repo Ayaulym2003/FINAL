@@ -262,13 +262,13 @@
       height: 1300px;
   }
   .opinionText{
-      position: relative;
+      position: absolute;
       width: 60%;
       color: rgb(235, 191, 191);
       margin: 30px;
       font-size: 35px;
       text-transform: uppercase;
-      top: -850px;
+      top: 140vh;
       text-align: left;
       margin-left: 27%;  
     }
